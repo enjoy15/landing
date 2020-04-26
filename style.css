@@ -1,0 +1,40 @@
+/* Write some CSS below */
+body{
+	font-family: 'Manrope', sans-serif;
+	color: #035aa6;
+}
+
+a{
+	text-decoration: none;
+	color: green;
+	background-color: pink;
+}
+
+a:hover{
+	background: green;
+	font-size: 50;
+}
+
+img{
+	height: 100px;
+}
+div{
+	border: 1px solid #035aa6;
+	padding: 20 px;
+	margin: 10px;
+}
+#banner{
+	background: url('images/London.jpg');
+	height: 400px;
+	background-size: cover;
+}
+.card{
+	background: yellow;
+	border-radius: 8px;
+	width: 300px;
+}
+.cards{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
